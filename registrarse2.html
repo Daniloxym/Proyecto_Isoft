@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="euc-jp">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUTORIAS ACADEMICAS</title><!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
+    <link href="favicon.ico" rel="shortcut icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+  
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="Iconos/fonts/style.css">
+    <link rel="stylesheet" href="Iconos/fonts1/style.css">
+  
+  
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/registrarse.css">
+  </head>
+  <body>
+      <header id="header">
+          <div class="container">
+            <div id="logo" class="pull-left">
+              <a href="index"><img src="img/logo.png" alt="" title="" /></img></a>
+              <!-- Descomenta abajo si prefieres usar una imagen de texto -->
+              <!--<h1><a href="#hero">Encabezado 1</a></h1>-->
+            </div>
+      
+            <nav id="nav-menu-container">
+              <ul class="nav-menu">
+                <li id="inicio"><a href="index">Inicio</a></li>
+                <li id="registrarse"><a href="registrarse">registrarse</a></li>
+              </ul>
+            </nav>
+            <!-- #nav-menu-container -->
+          </div>
+        </header>
+    <div class="contenedor-form">
+        <div class="img-titulo-P">
+            <div class="contenedor-titulo">
+              <p class="titulo"><span>Tutorías</span> virtuales</p>
+              <p class="descripcion">de una manera practica y sencilla</p>
+            </div>
+          </div>
+          <div class="formulario">
+        <form id="form" action="" method="POST" enctype="multipart/form-data">
+            <div class="form-title">
+                <p> <span class="registro">Registro</span> de <span class="estudiante">Tutores</span></p>
+                <p>Crea una cuenta para ingresar</p>
+            </div>
+            <div>
+                <input id="nombre" type="text" name="nombre" placeholder="  Nombres" required>
+            </div>
+            <div>
+                <input id="apellido" type="text" name="apellido" placeholder="  Apellidos" required>
+            </div>
+            <div>
+                <input id="cedula" type="number" min="1" name="cedula" placeholder="  N. de cedula" required>
+            </div>
+            <div>
+              <input id="celular" type="number" min="1" name="celular" placeholder="  N. de celular" required>
+          </div>
+            <div class="Materia">
+                <label >Materia </label>
+                <select id="materia" name="materia" class="materia">
+                    
+                </select>
+            </div>
+
+            <div class="foto-f">
+              <span class="icon-box-remove"></span>
+                <label for="foto" id="info-f">Seleccionar foto de perfil</label>
+                <input id="foto" name="foto" type="file">
+            </div>
+
+            <div class="correo-password">
+              
+                <input id="correo" type="email" name="correo" placeholder="Correo electronico" required>
+                <div class="pass">
+                  <input id="password" type="password" name="pasword" placeholder="Contraseña" required>
+                <input id="passwordC" type="password" name="paswordC" placeholder="Confirmar Contraseña" required>
+                </div>
+            </div>
+            <div class="especialidad">
+              <textarea id="especialidad" maxlength="149" cols="30" rows="4" required placeholder="Descripcion y especialidad. Ejemplo: Soy un Fisico egresado de la universidad de Cartagena en el año 2015 con maestria en fisica de particulas. Maximo 150 caracteres."></textarea>
+            </div>
+            <p class="condiciones">Al registrarse aceptas nuestras <b>Condiciones</b> y <b>politicas de datos</b></p>
+            <div class="boton">
+                <button class="enviar" id="enviar" type="submit">Registrarse</button>
+            </div>
+           
+        </form>
+    </div>
+    </div>
+    <script src="js/registrarse.js"></script>
+</body>
+</html>

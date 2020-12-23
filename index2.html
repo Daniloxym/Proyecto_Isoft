@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>TUTORIAS ACADEMICAS</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="stylesheet" href="css2/styles.css">
+  <link rel="stylesheet" href="Iconos/fonts/style.css">
+  <link rel="stylesheet" href="Iconos/fonts1/style.css">
+  <link rel="stylesheet" href="Iconos/fonts2/style.css">
+  
+
+</head>
+
+<body>
+ 
+  <div class="contenedor-titulo">
+    <p class="titulo"><span>Tutorías</span> virtuales</p>
+    <p class="descripcion">de una manera practica y sencilla</p>
+  </div>
+
+  <div>
+    <form id="iniciarS" class="formulario" >
+      <div class="correo-pass">
+        <span class="icon-user-solid-circle"></span>
+        <input id="correo" type="email" placeholder="Correo Electronico" required>
+      </div>
+      <div class="correo-pass">
+        <span class="icon-lock-closed"></span>
+        <input id="pass" type="password" placeholder="Contraseña" required>
+      </div>
+      <a class="olvide-contra" href="">Olvide mi contraseña</a>
+
+      <div class="tipoLogin">
+        <input id="profesor" type="checkbox" name="tipoLogin" value="Profesor">
+        <label for="profesor">Profesor</label>
+
+        <input id="estudiante" type="checkbox" name="tipoLogin" value="Estudiante">
+        <label for="estudiante">Estudiante</label>
+
+      </div>
+      <button class="iniciarSecion" type="submit">Iniciar sesión</button>
+      
+
+      
+    </form>
+  </div>
+  <script src="js/iniciarSecion.js"></script>
+</body>
+
+</html>

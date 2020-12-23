@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>TUTORIAS ACADEMICAS</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
+  <link href="favicon.ico" rel="shortcut icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="estilo2.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+  
+  <script>
+
+    $(document).ready(function(){
+               
+          var cedulaEstudiante;
+
+          
+          $.ajax({
+                        type: 'GET',
+                        url: "Backend3",
+                        data: {
+                            
+  
+                        }, 
+                        success: function(data) {
+                               
+                          cedulaEstudiante=data;
+                                
+
+                              
+                       }
+                
+                });
+
+
+          $('#reservar').click(function(){
+          
+          
+          
+          
+         
+
+          var cedulaTutor = $('input:radio[name=opcion]:checked').val();
+
+
+          
+
+          var opcion = $('input:radio[name=check]:checked').val();
+
+          
+
+
+          $.ajax({
+                        type: 'GET',
+                        url: "Backend2",
+                        data: {
+                            "cedulaTutor":cedulaTutor,
+                            "opcion":opcion,
+                            "cedulaEstudiante":cedulaEstudiante 
+                        }, 
+                        success: function(data) {
+                           
+                           alert("Solicitud de tutoria enviada");    
+                           $("#cubo").html(data);
+                                
+
+                              
+                       }
+                
+                });
+          
+        
+        });
+        
+
+      });
+      
+      
+          
+
+     
+      
+      </script>
+   
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="preloader"></div>
+
+  <!--==========================
+  Hero Section
+  ============================-->
+  
+
+  <!--==========================
+  Sección de encabezado
+  ============================-->
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <a href="index"><img src="img/logo.png" alt="" title="" /></img></a>
+        <!-- Descomenta abajo si prefieres usar una imagen de texto -->
+        <!--<h1><a href="#hero">Encabezado 1</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index">Inicio</a></li>
+          <li><a href="#about">Sobre nosotros</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonios</a></li>
+          <li><a href="#team">Equipo</a></li>
+          
+          <li><a href="#contact">Contactanos</a></li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+  <!-- #header -->
+
+  <!--==========================
+  About Section
+  ============================-->
+  
+
+  <!--==========================
+  Services Section
+  ============================-->
+  
+
+  <!--==========================
+  Subscrbe Section
+  ============================-->
+  
+
+  <section id="team">
+
+
+    <di id="materias">
+
+    </div>
+
+    <div class="container wow fadeInUp">
+      <div class="row">
+
+        <h1 id = "mostrar"></h1>
+        <div class="col-md-12">
+          <h3 class="section-title">Nuestros tutores</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Elige el tutor con el cual deseas tener una tutoria</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><a><img src="img/team-1.jpg" alt=""></a></div>
+            <h3><b>Carlos Meza</b></h3>
+            <span><font size = 3>Tutor en matematicas y fisica</font></span>
+            
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><a><img src="img/team-2.jpg" alt=""></a></div>
+            <h3><b>Camila Cardona</b></h3>
+            <span><font size = 3>Tutora en biologia y quimica</font></span>
+            
+            
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><a><img src="img/team-3.jpg" alt=""></a></div>
+            <h3><b>William Anderson</b></h3>
+            <span><font size = 3>Tutor en inglés y frances</font></span>
+            
+            
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><a><img src="img/team-4.jpg" alt=""></a></div>
+            <h3><b>Juan Jose Ayala</b></h3>
+            <span><font size = 3>Tutor en programación</font></span>
+            
+            
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        
+
+          
+             
+
+                
+                 
+                  
+                
+
+                  
+                    <div class="container">
+
+                      <div class="row">
+
+                       
+                      <div class="col-md-4">
+                        <div class="caja2">   
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">  
+                            <label class="btn btn-info">
+                              <input value="1234" type="radio" name="opcion" id="boton1">Seleccionar
+                            </label>
+
+                           </div>
+                        </div>
+                      </div>
+
+
+                        
+                      <div class="col-md-3">
+                         
+                        
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">  
+                            <label class="btn btn-info">
+                              <input value="12345" type="radio" name="opcion" id="boton2">Seleccionar
+                            </label>
+                          </div>
+                        
+                      </div>
+
+                        <div class="col-md-3">
+                          
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">  
+                          <label class="btn btn-info">
+                              <input value="123456" type="radio" name="opcion" id="boton3">Seleccionar
+                            </label>
+                          </div>
+                        </div>
+
+                      <div class="col-md-2">  
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">  
+                          <label class="btn btn-info">
+                              <input value="123" type="radio" name="opcion" id="boton4">Seleccionar
+                            </label>
+                        </div>
+                      </div>
+
+                      </div>
+                    
+                    </div>
+
+
+
+
+                  
+               
+
+
+
+                
+
+            
+              
+
+           
+           
+
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Porfolio Section
+  ============================-->
+
+
+
+
+  <section id="portfolio">
+    <div class="container wow fadeInUp">
+      
+      
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">HORARIOS</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Elige el horario que más se acomode a tu disponibilidad de tiempo</p>
+        </div>
+      </div>
+
+      
+
+    <div class="container">
+
+      
+        
+          
+
+        
+
+        <table class="table table-striped table-bordered table-hover ">
+         
+        <tbody style="cursor:pointer">
+                <tr class="info">
+                  
+                  <th>SELECCIONAR</th>
+                  <th>HORA</th>
+                  <th>DÍA</th>
+                  <th>MES</th>
+                  <th>AÑO</th>
+          
+
+
+                </tr>
+           
+              <tr>
+                
+                <td><input type="radio" name = "check" value = "1" id="chk1"></td>
+                <td>14:00</td>
+                <td>Sabado 15</td>
+                <td>Febrero</td>
+                <th>2020</th>
+               
+
+              </tr>
+
+              <tr>
+                <td><input type="radio" name = "check" value = "2" id="chk2"></td>
+                <td>16:00 </td>
+                <td>Viernes 14</td>
+                <td>Febrero</td>
+                <th>2020</th>
+
+              </tr>
+
+
+              <tr>
+                <td><input type="radio" name = "check" value = "3" id="chk3"></td>
+                <td>20:00 </td>
+                <td>Jueves 20</td>
+                <td>Febrero</td>
+                <th>2020</th>
+
+              </tr>
+
+
+              <tr>
+                <td><input type="radio" name = "check" value = "4" id="chk4"></td>
+                <td>17:00 </td>
+                <td>Miercoles 26</td>
+                <td>Febrero</td>
+                <th>2020</th>
+
+              </tr>
+
+              <tr>
+                <td><input type="radio" name = "check" value = "5" id="chk5"></td>
+                <td>13:00 </td>
+                <td>Viernes 13</td>
+                <td>Marzo</td>
+                <th>2020</th>
+
+              </tr>
+
+
+              <tr>
+                <td><input type="radio" name = "check" value = "6" id="chk6"></td>
+                <td>9:00 </td>
+                <td>Martes 24</td>
+                <td>Marzo</td>
+                <th>2020</th>
+
+              </tr>
+
+
+              <tr>
+                <td><input type="radio" name = "check" value = "7" id="chk7"></td>
+                <td>18:00 </td>
+                <td>Sabado 28</td>
+                <td>Marzo</td>
+                <th>2020</th>
+
+              </tr>
+
+
+              <tr>
+                <td><input type="radio" name = "check" value = "8" id="chk8"></td>
+                <td>14:00 </td>
+                <td>Martes 31</td>
+                <td>Marzo</td>
+                <th>2020</th>
+
+              </tr>
+
+            </tbody>
+        </table>
+
+        <br>
+         
+         <div class="form-group">
+            
+            <div class="col-md-4 col-md-push-4">
+              
+              
+              
+  
+
+               <div class= "col-md-12 col-md-push-2">
+                 
+                  <button id="reservar" class ="btn btn-info col-md-7">Reservar tutoria
+
+                  </button>
+
+               </div> 
+               
+
+            </div>
+            
+          
+          
+          </div>
+       
+    
+    </div>
+
+  </section>
+
+  <!--==========================
+  Testimonials Section
+  ============================-->
+  
+
+  <!--==========================
+  Team Section
+  ============================-->
+  
+
+  <!--==========================
+  Contact Section
+  ============================-->
+  
+
+  <!--==========================
+  Footer
+============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright">
+            &copy;  All Rights Reserved
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/morphext/morphext.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/stickyjs/sticky.js"></script>
+  <script src="lib/easing/easing.js"></script>
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+  <script src="contactform/contactform.js"></script>
+
+
+</body>
+
+</html>

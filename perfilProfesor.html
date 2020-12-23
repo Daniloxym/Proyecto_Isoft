@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUTORIAS ACADEMICAS</title>
+    <link rel="stylesheet" href="css2/perfil.css">
+    <link rel="stylesheet" href="Iconos/fonts/style.css">
+    <link rel="stylesheet" href="Iconos/fonts1/style.css">
+</head>
+<body>
+    <div class="contenedor-perfil menu-invisible">
+        <div class="perfil2">
+            <div class="foto">
+                <img id="foto" src="" cover>
+                <span class="icon-camera"></span>
+            </div>
+            <h1 id="nombre"></h1>
+            <p class="descripcion">Tutor Activo</p>
+            <button class="editar-perfil">Editar perfil</button>
+            <span class="icon-camera"></span>
+        </div>
+
+        <div class="opciones">
+            <div id="MisTutorias">Mis tutorias</div>
+            <div id="EstudiantesAsignados">Estudiantes asignados</div>
+            <div id="Configuraciones">Configuraciones</div>
+        </div>
+        
+    </div>
+
+    <div id="contenedor-dinamico" class="contenedor-dinamico aumentar">
+        <div class="baner">
+            <div id="icon-menu" class="menu-invisible">
+                <span class="icon-menu"></span>
+            </div>
+            <div class="inicio"> <a href="index">Inicio</a></div>
+            <div class="tutor">Tutores</div>
+            <div class="foto2">
+                <img src="" id="foto2" cover>
+                <h3 id="nombre2"></h3>
+                <div class="opciones-Lista">
+                    <ul class="opciones-Lista-Desplegable">
+                        <li ><a href="destruirSecion">
+                            <span>Cerrar sesion</span>
+                        </a></li>
+                        <li><a id="misTutorias2">
+                            <span>Mis tutorias</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <span class="icon-circle-down"></span>
+            </div>
+        </div>
+        <div id="contenido" class="contenido">
+
+        </div>
+    </div>
+
+    <div class="contactenos">
+        <h1>Contactanos</h1>
+        <p>Resolveremos cualquier tipo de inquietud que tengas. No dudes en enviarnos un mensaje</p>
+        <div class="contactenos-mensajes">
+            <div class="contactenos-datos">
+                <div>
+                    <p>Bocagrande</p>
+                    <p>Cartagena - Colombia</p>
+                </div>
+                <div>info@example.com</div>
+                <div>+37 3156738927</div>
+                <div>
+                    <p>Siguenos en:</p>
+                    <div class="iconos">
+                        <span class="icon-facebook"></span>
+                        <span class="icon-instagram1"></span>
+                        <span class="icon-youtube1"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-mensaje">
+                <form class="mensaje" action="">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Correo Electronico">
+                    <textarea name="" cols="30" rows="5" placeholder="mensaje" required></textarea>
+                    <button class="enviar-mensaje" type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>Todos los derechos de autor reservados</footer>
+
+    <script src="js/perfil.js"></script>
+</body>
+</html>

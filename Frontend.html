@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	
+		<head>
+
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+			<title>
+				
+			</title>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+			
+
+			<script>
+			
+			$(document).ready(function(){
+			    $('#calcular').click(function(){
+					
+					var nombre=document.getElementById("nombre").value;  
+					$.ajax({
+				                type: 'GET',
+				                url: "Backend",
+				                data: {
+				                    "nombre":nombre 
+				                }, 
+				                success: function(data) {
+				                       
+
+				                        $("#cubo").html(Number(data)+1);
+
+				                    	
+				           		 }
+				    		
+				    		});
+				
+				});
+
+			});
+			
+			</script>
+
+
+		</head>
+		
+
+		<body>
+
+
+			<h2>Numero al cuadrado</h2>
+			<br><br>
+			<p>Aceptar: <input type="text" id="nombre"></p>
+			<button id="calcular">Calcular</button>
+			<br>
+			<div id="cubo"></div>
+
+		</body>
+</html>

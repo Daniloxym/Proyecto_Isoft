@@ -1,0 +1,157 @@
+@font-face {
+    font-family: MADE_MEDIUM;
+    font-weight: bold;
+    src: url("../fuentes/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf") format("opentype");
+}
+@font-face {
+    font-family: MADE_LIGHT;
+    font-weight: bold;
+    src: url("../fuentes/MADE\ TOMMY\ Light_PERSONAL\ USE.otf") format("opentype");
+}
+@font-face {
+    font-family: MADE_THIN;
+    font-weight: bold;
+    src: url("../fuentes/MADE\ TOMMY\ Thin_PERSONAL\ USE.otf") format("opentype");
+}
+@font-face {
+    font-family: MADE_REGULAR;
+    font-weight: bold;
+    src: url("../fuentes/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf") format("opentype");
+}
+body{
+    margin: 0%;
+    margin-top: 0%;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+.fondo-img{
+    position: relative;
+    background: url(../img/happy-group-of-friends-with-their-hands-together-in-the-middle.jpg);
+    background-size: cover;
+}
+
+.contenedor-titulo{
+    text-align: center;
+    margin-bottom: 3em;
+}
+p{
+    margin: 0%;
+}
+.titulo{
+    font-size: 2.3em;
+    font-family: MADE_LIGHT ;
+}
+span{
+    font-family: MADE_MEDIUM;
+    font-weight: bold;
+}
+.descripcion{
+    font-size: 1em;
+    font-family: MADE_THIN;
+    color: rgba(250, 250, 255,0.8);
+}
+
+.formulario{
+    background: rgb(224, 237, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 23em;
+    width: 23em;
+    border-radius: 10%;
+}
+input{
+    width: 12rem;
+    margin: 0.8rem;
+    height: 1.8rem;
+    font-size: 1.1em;
+    border: none;
+    font-family: MADE_THIN;
+}
+.correo-pass{
+    display: flex;
+    align-items: center;
+}
+.correo-pass span{
+    color: rgb(41, 154, 209);
+    font-size: 2em;
+}
+.olvide-contra{
+    text-decoration: none;
+    color:  rgb(41, 154, 209);
+    font-size: 1em;
+    font-family: MADE_LIGHT;
+}
+
+.tipoLogin{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    height: 4em;
+    width: 12.5rem;
+    color: dimgrey;
+}
+.tipoLogin label{
+    font-size: 1em;
+    font-family: MADE_REGULAR;
+}
+.tipoLogin input{
+    margin-right: 0.3em;
+    width: 1.5em;
+    height: 1.5em;
+}
+.iniciarSecion{
+    height: 2.3rem;
+    width: 12rem;
+    color: white;
+    margin-top: 0.7rem;
+    font-size: 1.3em;
+    background: rgb(41, 154, 209);
+    font-weight: bold;
+    border: none;
+    border-radius: 0.625rem;
+    font-family: MADE_MEDIUM;
+    cursor:pointer;
+}
+
+
+.iniciarSecion:hover{
+    background-color: #006CA1
+}
+.nocuenta{
+    margin-top: 0.5em;
+    color: black;
+    font-size: 0.8em;
+}
+
+@media(max-width: 720px){
+    body{
+        font-size:10px;
+    }
+    .formulario input{
+        width: 9rem;
+        margin: 0.8rem;
+        height: 1.2rem;
+        font-size: 1.1em;
+        border: none;
+        font-family: MADE_THIN;
+    }
+    .formulario input[type="checkbox"]{
+        margin:0;
+        width: 1.2em;
+        margin-left: 1em;
+        margin-right: 0.5em;
+    }
+    .iniciarSecion{
+        height: 1.8rem;
+        width: 9rem;
+    }
+}
+

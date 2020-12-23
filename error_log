@@ -1,0 +1,288 @@
+[20-Nov-2020 21:47:52 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 36
+[20-Nov-2020 21:48:04 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 36
+[20-Nov-2020 21:53:22 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:47
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(47): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 47
+[20-Nov-2020 21:53:45 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:47
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(47): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 47
+[20-Nov-2020 21:53:50 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:47
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(47): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 47
+[20-Nov-2020 21:55:45 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 36
+[20-Nov-2020 21:55:51 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 36
+[20-Nov-2020 22:03:37 America/Bogota] PHP Parse error:  syntax error, unexpected '').css('' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home3/tutori12/public_html/registrarse.php on line 141
+[20-Nov-2020 22:23:08 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:23:31 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:23:31 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:23:36 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:23:37 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:23:43 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:23:44 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:24:09 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:24:11 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:24:15 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:24:18 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:24:21 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:24:22 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[20-Nov-2020 22:24:27 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '12345' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:83
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 83
+[04-Dec-2020 08:28:08 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1234' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:48
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(48): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 48
+[17-Dec-2020 17:34:59 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65
+[18-Dec-2020 12:37:50 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65
+[20-Dec-2020 14:50:35 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[20-Dec-2020 14:59:39 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 01:06:06 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 01:09:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 01:13:55 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 01:15:27 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 01:17:28 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 01:21:11 America/Bogota] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/tutori12/public_html/cancelarTutoria.php on line 84
+[22-Dec-2020 01:29:23 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 01:31:44 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 01:37:46 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 09:57:51 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 10:02:13 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 10:10:24 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 10:47:16 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 10:56:04 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/misTutorias.php:97
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/misTutorias.php on line 97
+[22-Dec-2020 10:58:29 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 11:09:21 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 11:12:14 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 11:39:39 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 11:40:31 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:12
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 12
+[22-Dec-2020 11:42:21 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 17
+[22-Dec-2020 11:48:51 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 17
+[22-Dec-2020 11:56:05 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 17
+[22-Dec-2020 11:57:51 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 17
+[22-Dec-2020 11:59:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 17
+[22-Dec-2020 12:10:57 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home3/tutori12/public_html/cancelarTutoria.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/cancelarTutoria.php on line 17
+[22-Dec-2020 15:32:38 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 15:32:50 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 15:32:50 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 15:32:56 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 15:32:57 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 15:33:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 15:34:11 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 15:34:15 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 15:54:28 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 16:02:01 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 16:10:04 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 16:10:13 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 16:10:18 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65
+[22-Dec-2020 16:16:59 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 16:47:40 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 16:48:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home3/tutori12/public_html/iniciarSecion.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/tutori12/public_html/iniciarSecion.php on line 34
+[22-Dec-2020 17:40:47 America/Bogota] PHP Warning:  file_get_contents(): Filename cannot be empty in /home3/tutori12/public_html/confirmacion.php on line 53
+[22-Dec-2020 17:40:47 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ANTONIOCAG15@GMAIL.COM' for key 'correo' in /home3/tutori12/public_html/confirmacion.php:66
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(66): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 66
+[22-Dec-2020 17:52:01 America/Bogota] PHP Warning:  file_get_contents(): Filename cannot be empty in /home3/tutori12/public_html/confirmacion.php on line 53
+[22-Dec-2020 17:52:02 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ANTONIOCAG15@GMAIL.COM' for key 'correo' in /home3/tutori12/public_html/confirmacion.php:66
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(66): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 66
+[22-Dec-2020 17:52:37 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ANTONIOCAG15@GMAIL.COM' for key 'correo' in /home3/tutori12/public_html/confirmacion.php:66
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(66): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 66
+[22-Dec-2020 18:16:41 America/Bogota] PHP Warning:  file_get_contents(): Filename cannot be empty in /home3/tutori12/public_html/confirmacion.php on line 53
+[22-Dec-2020 18:16:41 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '234567' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:66
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(66): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 66
+[22-Dec-2020 23:33:57 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65
+[22-Dec-2020 23:34:03 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65

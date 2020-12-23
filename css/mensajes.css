@@ -1,0 +1,59 @@
+body{
+    background: #dc143c;
+    height: 200vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+button{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    background: rgb(190, 228, 238);
+}
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 90%;
+    height: 200vh;
+    background: white;
+}
+.mensajes{
+    width: 80%;
+    height: 3.5em;
+    border-bottom: 1px solid black;
+}
+
+.invisible{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+iframe{
+    height: 70%;
+    width: 100%;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5em;
+    height: 5em;
+}
+
+.mensajeria{
+    margin-right:3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 320px;
+    height: 80%;
+    position: fixed;
+    z-index: 10;
+    bottom: 5%;
+    margin-bottom: 1em;
+}
