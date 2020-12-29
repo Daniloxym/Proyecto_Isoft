@@ -2,8 +2,13 @@
     
     session_start();
     
+    try{
+
+     
+        
     $con = new PDO('mysql:host=localhost;dbname=tutori12_Tutorias', "tutori12_Danilo", "tutorias");
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+
     
     if($_POST["tipo"]=="registrarE"){   
         $nombre=strtoupper($_POST["nombre"]);
@@ -118,6 +123,17 @@ $message = '
     mail($to, $subject, $message, $headers);
     
     echo json_encode($nombre." LE HEMOS ENVIADO UN MENSAJE DE CONFIRMACION AL CORREO PORFAVOR REVISELO.");
+    
+    }catch(Exception $e){
+
+
+        echo json_encode("Error en la base de datos.");
+    
+
+    }
+
+    
+
  
  
 ?>

@@ -5,6 +5,9 @@ header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
 header("Allow: GET, POST, OPTIONS, PUT, DELETE");
 //header('Content-Type: application/json');
 session_start();
+   
+
+try{
     $con = new PDO('mysql:host=localhost;dbname=tutori12_Tutorias', "tutori12_Danilo", "tutorias");
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
     if(isset($_SESSION["cedula"])){
@@ -90,4 +93,10 @@ $message = '
     mail($to, $subject, $message, $headers);
     echo json_encode("LA TUTORIA HA SIDO CANCELADA");
  
+
+}catch(Exception $e){
+
+    echo json_encode("Error en la base de datos.");
+
+}   
 ?>

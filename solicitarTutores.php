@@ -1,5 +1,9 @@
 <?php
 session_start();
+    
+
+  try{
+
     $conn = new PDO('mysql:host=localhost;dbname=tutori12_Tutorias', "tutori12_Danilo", "tutorias");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
     $codigo= $_POST["codigoM"];
@@ -14,5 +18,12 @@ session_start();
     
     $_SESSION["nombreM"]=$res2;
     echo json_encode($_SESSION["nombreM"]);
+
+
+}catch(Exception $e){
+
+    echo json_encode("Error en la base de datos.");
+
+}
     
 ?>

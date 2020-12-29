@@ -1,6 +1,7 @@
 <?php
 try{
     $conn = new PDO('mysql:host=localhost;dbname=tutori12_Tutorias', "tutori12_Danilo", "tutorias");
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
     
     $sql= "SELECT * FROM materias";
     
@@ -10,5 +11,5 @@ try{
     echo json_encode($resultado);
 }
 catch(PDOException $e){
-    echo "ERROR: " . $e->getMessage();
+    echo json_encode(null);
 }

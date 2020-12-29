@@ -13,12 +13,15 @@
             }
             else{
             $res["nombre"]=null;
-            echo json_encode($res);
+            echo json_encode("$res");
             }
             
         }
     }else{
-        $conn = new PDO('mysql:host=localhost;dbname=tutori12_Tutorias', "tutori12_Danilo", "tutorias");
+    
+    try{
+    
+    $conn = new PDO('mysql:host=localhost;dbname=tutori12_Tutorias', "tutori12_Danilo", "tutorias");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
     $correo= strtoupper($_POST["correo"]);
     $pass= $_POST["pass"];
@@ -64,7 +67,16 @@
         
         echo json_encode(0/0);
     }
+    
+
+
+
+    }catch(Exception $e){
+
+
+        echo json_encode(null);
     }
     
+}
     
 ?>

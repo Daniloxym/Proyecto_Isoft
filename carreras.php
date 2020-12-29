@@ -1,6 +1,7 @@
 <?php
 try{
     $conn = new PDO('mysql:host=localhost;dbname=tutori12_Tutorias', "tutori12_Danilo", "tutorias");
+    $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
     
     $sql= "SELECT nombre,codigoC FROM carreras";
     

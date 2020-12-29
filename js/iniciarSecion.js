@@ -42,13 +42,23 @@ form.addEventListener("submit",(e)=>{
         })
         .then(res=>res.json())
         .then(res =>{
-            if(tipoLogin=="Estudiante"){
-                form.setAttribute("action","perfilEstudiante");
+
+          if(res!=null){  
+                if(tipoLogin=="Estudiante"){
+                    form.setAttribute("action","perfilEstudiante");
+                }
+                else if(tipoLogin=="Profesor"){
+                    form.setAttribute("action","perfilProfesor");
+                }
+                form.submit(); 
+                
             }
-            else if(tipoLogin=="Profesor"){
-                form.setAttribute("action","perfilProfesor");
-            }
-             form.submit();  
+
+           else{
+
+                alert("Error en la base de datos");
+
+           }
         })
         .catch(res=> alert("EL CORREO O LA CONTRASEÑA SON INCORRECTOS"));
     

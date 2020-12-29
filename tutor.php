@@ -1,5 +1,9 @@
 <?php
 session_start();
+        
+
+      try{
+
         $conn = new PDO('mysql:host=localhost;dbname=tutori12_Tutorias', "tutori12_Danilo", "tutorias");
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
         if(isset($_POST["tipo"])){
@@ -102,5 +106,12 @@ session_start();
           echo json_encode($respuesta);
         }
         
+
+      }catch(Exception $e){
+
+        echo json_encode(null);
+
+
+      }    
 
 ?> 

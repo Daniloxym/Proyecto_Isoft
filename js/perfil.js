@@ -102,6 +102,7 @@ if(pagina=="perfilEstudiante"){
         fetch("materias")
         .then(res=>res.json())
         .then(res=>{
+            if(res==null) alert("Error en la base de datos");
             for (const materia of res) {
                 const divmateria= document.createElement("div");
                 const inputmateria=document.createElement("input");
@@ -146,7 +147,10 @@ if(pagina=="perfilEstudiante"){
                     body: Data
                 })
                 .then(res=>res.json())
-                .then(res=>{     
+                .then(res=>{   
+                    
+                    
+
                     const contenedortutores= document.createElement("div");
                     contenedortutores.classList.add("contenedor-tutores");
                     contenido.append(contenedortutores);
@@ -248,6 +252,9 @@ if(pagina=="perfilEstudiante"){
                                 })
                                 .then(res=>res.json())
                                 .then(res =>{
+
+                                    //if(res==null) alert("Error en la base de datos");
+
                                     if(res=="RESERVADA"){
                                         form.setAttribute("action","perfilEstudiante"); 
                                         alert(`LA TUTORIA FUE: ${res}.`);
@@ -449,10 +456,14 @@ const MisTutorias= (user)=>{
     })
     .then(res=>res.json())
     .then(res=>{
+        
+        if(res==null) alert("Error en la base de datos");
+        
         if(res.nombre===null){
             alert("Lo sentimos Debe iniciar sesion");
             window.location="https://tutorias-academicas.com/index2";
         }
+        
             for (const datos of res) {
                 const contenedor= document.createElement("div");
                 //AGREGAR ESTILO CSS
