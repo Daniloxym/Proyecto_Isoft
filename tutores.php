@@ -29,10 +29,10 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="index">Inicio</a></li>
-          <li><a href="#about">Sobre nosotros</a></li>
+          <!-- <li><a href="#about">Sobre nosotros</a></li>
           <li><a href="#services">Servicios</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#testimonials">Testimonios</a></li>
+          <li><a href="#testimonials">Testimonios</a></li> -->
           <li><a href="#team">Equipo</a></li>
           
           <li><a href="#contact">Contactanos</a></li>

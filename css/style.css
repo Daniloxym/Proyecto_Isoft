@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   .back-to-top {
     bottom: 15px;
   }
+  
 }
 
 .back-to-top:focus {
@@ -191,12 +192,16 @@ h1, h2, h3, h4, h5, h6 {
   background: #03C4EB;
   border: 2px solid #03C4EB;
 }
-
+.servicios{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #111;
+  background: white !important;
   padding: 20px 0;
   height: 90px;
   z-index: 10;
@@ -320,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.4em 0.5em;
     text-decoration: none;
     display: inline-block;
-    color: #fff;
+    color:#03C4EB;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
@@ -331,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #03C4EB;
 }
 .LOL:hover{
-  color: white;
+  background-color: rgba(39, 146, 245,0.8);
 }
 
 .nav-menu ul {
@@ -376,14 +381,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: black;
 }
 
-@media (max-width: 768px) {
-  #mobile-nav-toggle {
-    display: inline;
-  }
-}
+
 
 /* Mobile Nav Styling */
 #mobile-nav {
@@ -392,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.9);
+  background: white;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -410,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  color:#03C4EB;
   font-size: 16px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -422,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #fff;
+  color: #03C4EB;
 }
 
 #mobile-nav ul li li {
@@ -477,7 +478,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-title {
   font-size: 32px;
-  color:  rgb(39, 146, 245);
+  color:  #03C4EB;
   text-align: center;
   font-weight: 700;
 }
@@ -502,6 +503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   justify-content: center;
   align-items: center;
   border-radius: 0.5em;
+  color: white;
 }
 /* Get Started Section
 --------------------------------*/
@@ -535,53 +537,127 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: url("../img/teacher-presenting-on-board.jpg") fixed center center;
   background-size: cover;
-  padding: 80px 0 60px 0;
 }
 
 #services .service-item {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: start;
+  width: 18em;
+  height: 20em;
+  background: white;
+  border-radius: 1.5em;
 }
-
+.testimonio{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+}
+.testimonio .row{
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
 #services .service-icon {
-  float: left;
-  background: #03C4EB;
+  width: 4.4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  align-self: center;
+  background: white;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 2px solid #03C4EB;
 }
 
 #services .service-icon i {
-  color: #fff;
+  color: #03C4EB;
   font-size: 24px;
+}
+#services .service-item:hover{
+  background-color: #03C4EB;
+  color:white;
 }
 
 #services .service-item:hover .service-icon {
-  background: #fff;
+  background: #03C4EB;
+  border: 2px solid #fff;
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: white;
 }
-
+#services .service-item:hover .service-title a{
+  color:white;
+}
 #services .service-title {
-  margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
+  width:80%;
+  text-align: center;
   text-transform: uppercase;
 }
 
 #services .service-title a {
-  color: #111;
+  color: #03C4EB;
 }
 
 #services .service-description {
-  margin-left: 80px;
+  display:inline-block;
+  width:80%;
+  text-align: justify;
   line-height: 24px;
 }
-
+#services .container{
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+  width: 100%;
+  padding-top: 3em;
+  min-height: 500px;
+}
+.fortalece{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  width: 100%;
+  height: 50px;
+  color:white;
+}
+.fortalece span{
+  font-weight: bold;
+  margin-right: 3px;
+}
+.comenzar-tutoria{
+  width: 100%;
+  min-height: 240px;
+  background-color: rgba(66, 164, 255,0.5);
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.comenzar-tutoria p{
+  display:inline-block;
+  text-align: justify;
+  width:40%;
+  color:white;
+  margin:0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.comenzar-tutoria button{
+  background: white;
+  color: #03C4EB;
+  border: none;
+  border-radius: 4.8px;
+  height: 2rem;
+  margin-bottom: 15px;
+  font-family: MADE_REGULAR;
+}
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
@@ -693,7 +769,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  background: #f6f6f6;
+  background: white;
   padding: 80px 0;
 }
 
@@ -703,11 +779,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .profile .pic {
   border-radius: 50%;
-  border: 6px solid #fff;
+  border:4px solid #03C4EB;
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
-  width: 260px;
+  height: 9em;
+  width: 9em;
 }
 
 #testimonials .profile .pic img {
@@ -726,12 +802,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .quote {
   position: relative;
-  background: #fff;
-  padding: 60px;
-  margin-top: 40px;
   font-size: 16px;
   font-style: italic;
+  margin-left: 2em;
   border-radius: 5px;
+  width: 20em;
+  text-align: justify;
 }
 
 #testimonials .quote b {
@@ -740,6 +816,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: -9px;
   position: relative;
   top: -8px;
+}
+#testimonials .quote h4{
+  color: #03C4EB;
 }
 
 #testimonials .quote small {
@@ -803,7 +882,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
   font-family: MADE_LIGHT;
-  background-color: rgb(221, 221, 221);
+  background: rgb(224, 237, 243);
   padding: 80px 0;
 }
 
@@ -889,4 +968,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+@media (max-width: 768px) {
+  #mobile-nav-toggle {
+    display: inline;
+  }
+  .comenzar-tutoria p{
+      width:80%;
+  }
+  #testimonials .quote{
+      width: 90%;
+  }
+  #testimonials .profile .pic{
+      height: 6em;
+        width: 6em;
+  }
+}
+@media (max-width: 550px) {
+
+  #testimonials .quote{
+      width: 15em;
+      margin-left:0;
+  }
+  #testimonials .profile .pic{
+     height: 4em;
+     width: 4em;
+  }
+}
+@media (max-width: 380px){
+    #testimonials .quote{
+        font-size: 12px;
+  }
 }

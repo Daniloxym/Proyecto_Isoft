@@ -116,6 +116,7 @@ $message = '
 
     
     mail($to, $subject, $message, $headers);
+    
     echo json_encode($nombre." LE HEMOS ENVIADO UN MENSAJE DE CONFIRMACION AL CORREO PORFAVOR REVISELO.");
  
  

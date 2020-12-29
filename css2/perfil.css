@@ -266,6 +266,7 @@ body{
     height: 2em;
 }
 .opciones-Lista-Desplegable a{
+    cursor:pointer;
     display: flex;
     justify-content: center;
     align-items: center;

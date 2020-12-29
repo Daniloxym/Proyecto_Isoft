@@ -130,6 +130,51 @@ input{
     color: black;
     font-size: 0.8em;
 }
+@media(max-width:2000px){
+    body{
+        font-size:23px;
+    }
+    .formulario input{
+        width:19rem;
+        height:2.7rem;
+        margin: 1.4rem;
+    }
+    .tipoLogin{
+        width:22rem;
+    }
+    .formulario input[type="checkbox"]{
+        margin-left: 1.2em;
+    }
+    .iniciarSecion {
+        margin-top:2rem;
+        height: 4rem;
+        width: 17rem;
+    }
+}
+
+@media(max-width:1500px){
+    body{
+        font-size: 15px;
+    }
+    .formulario input{
+        width: 12rem;
+        margin: 0.8rem;
+        height: 1.8rem;
+    }
+    .tipoLogin{
+        width: 12.5rem;
+    }
+    .formulario input[type="checkbox"]{
+        margin-left: 0.7em;
+        margin-right: 0.2em;
+    }
+    .iniciarSecion {
+        margin-top: 0.7rem;
+        height: 2.3rem;
+        width: 12rem;
+    }
+}
+
 
 @media(max-width: 720px){
     body{

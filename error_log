@@ -286,3 +286,51 @@ Stack trace:
   thrown in /home3/tutori12/public_html/confirmacion.php on line 66
 [22-Dec-2020 23:33:57 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65
 [22-Dec-2020 23:34:03 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65
+[23-Dec-2020 11:05:13 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65
+[23-Dec-2020 14:51:13 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/tutori12/public_html/misTutorias.php:16
+Stack trace:
+#0 /home3/tutori12/public_html/misTutorias.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/misTutorias.php on line 16
+[24-Dec-2020 14:11:26 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65
+[24-Dec-2020 16:05:27 America/Bogota] PHP Warning:  Division by zero in /home3/tutori12/public_html/iniciarSecion.php on line 65
+[28-Dec-2020 20:27:16 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:27
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 27
+[28-Dec-2020 20:30:35 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:27
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 27
+[28-Dec-2020 20:32:48 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:27
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 27
+[28-Dec-2020 20:33:18 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:27
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 27
+[28-Dec-2020 20:34:14 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:27
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 27
+[28-Dec-2020 20:34:53 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:27
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 27
+[28-Dec-2020 20:54:30 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:27
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 27
+[28-Dec-2020 21:16:13 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY' in /home3/tutori12/public_html/confirmacion.php:27
+Stack trace:
+#0 /home3/tutori12/public_html/confirmacion.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/tutori12/public_html/confirmacion.php on line 27

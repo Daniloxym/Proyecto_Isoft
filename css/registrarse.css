@@ -136,6 +136,7 @@ form div{
 .form-title p{
     margin: 0%;
     font-family: MADE_LIGHT;
+    color: rgb(41, 154, 209);
 }
 .form-title p:first-child{
     font-family: MADE_MEDIUM;
@@ -172,7 +173,7 @@ form div{
     color: rgb(39, 146, 245);
 }
 .red{
-    background: red;
+    border: 0.2em solid red;
 }
 .boton{
     align-self: start;
